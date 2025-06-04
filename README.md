@@ -1,15 +1,15 @@
 # CPMGEM Evaluation Notebooks
 
 Evalution notebooks for "Machine learning emulation of precipitation from km-scale regional climate simulations using a diffusion model", a paper on ML approaches to emulate the Met Office's UK CPM precipitation output from UKCP Local, including introducing CPMGEM.
+There are also further results for another paper, "Potential for machine learning emulators to augment regional climate simulations in provision of local climate change information", in `nbs/perspective-paper`.
 
 ## Setup
 
-This guide assumes you are using conda (or mamba) to manage packages and python environments.
+Assumes you have [pixi](https://pixi.sh) installed for managing dependencies.
 
-1. Install conda environment:
-  * If you wish to re-use the exact environment: `conda env create --file environment.lock.yml` and activate it: `conda activate cpmgem-pr-paper`
-  * OR install the needed conda and pip packages to your own environment: `conda install --file=environment.txt`
-2. Create .env file: cp .env.example .env and then update to match your needs:
+1. Clone repo and cd into it
+2. Install dependencies: `pixi install`
+3. Create .env file: cp .env.example .env and then update to match your needs:
   * `DERIVED_DATA`: path to where derived data such datasets and model artefacts are kept
 
 ## Configuration
@@ -25,4 +25,4 @@ Manage environment variables as you wish though the python-dotenv package is inc
 
 ## Usage
 
-The notebooks can be run with Jupyter: `jupyter lab`
+The notebooks can be run with Jupyter: `pixi run jupyter lab`
