@@ -489,7 +489,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/58/6a/9166369a2f092bd286d24e6307de555d63616e8ddb373ebad2b5635ca4cd/ipywidgets-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/43/6a/ca128561b22b60bd5a0c4ea26649e68c8556b82bc70a0c396eebc977fe86/jupyterlab_widgets-3.0.15-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/5f/323c4d56e8401c50185fd0e875fcf06b71bf825a863699be1eb10aa2a9cb/llvmlite-0.43.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: git+https://github.com/henryaddison/mlde-analysis.git?rev=james-review#cde65ab92f466da224e6004756f866b8723eec91
+      - pypi: git+https://github.com/henryaddison/mlde-analysis.git?rev=v0.5.1#6c3baba2a844218227f1d1cd086b59aa89864572
       - pypi: https://files.pythonhosted.org/packages/3c/bb/23032921661edc76562c411654a76f84635abf138100f14bfa9937794ae9/mlde_utils-0.3.0a9-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c2/4a/9da0e166abf2cd9347ab3ead8b1b51c62befef6dbd77ba60bce2b0021af0/nbdev-2.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d2/1d/1b658dbd2b9fa9c4c9f32accbfc0205d532c8c6194dc0f2a4c0428e7128a/nodeenv-1.9.1-py2.py3-none-any.whl
@@ -4711,9 +4711,9 @@ packages:
   - pkg:pypi/mistune?source=hash-mapping
   size: 72749
   timestamp: 1742402716323
-- pypi: git+https://github.com/henryaddison/mlde-analysis.git?rev=james-review#cde65ab92f466da224e6004756f866b8723eec91
+- pypi: git+https://github.com/henryaddison/mlde-analysis.git?rev=v0.5.1#6c3baba2a844218227f1d1cd086b59aa89864572
   name: mlde-analysis
-  version: 0.5.0
+  version: 0.5.1
   requires_dist:
   - cf-xarray
   - cmcrameri

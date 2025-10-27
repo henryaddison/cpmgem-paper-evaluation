@@ -30,4 +30,4 @@ typer = { version = "*" }
 xarray = { version = "*" }
 
 [pypi-dependencies]
-mlde-analysis = { git = "https://github.com/henryaddison/mlde-analysis.git", rev = "james-review" }
+mlde-analysis = { git = "https://github.com/henryaddison/mlde-analysis.git", rev = "v0.5.1" }
